@@ -25,7 +25,7 @@ OPTIONS:
     -v, --verbose         Be verbose
     -h, --help            Show this help
 
-Report bugs at https://www.github.com/eddyyousef/stow.sh
+Report bugs at https://www.github.com/adnanyousef/stow.sh
 EOH
 }
 
@@ -103,7 +103,7 @@ _main() {
     elif [[ "$operation" = "restow" ]]; then
         _restow
     else
-        echo "Error. Report this to github: eddyyousef/stow.sh"; exit
+        echo "Error. Report this to github: adnanyousef/stow.sh"; exit
     fi
 }
 
